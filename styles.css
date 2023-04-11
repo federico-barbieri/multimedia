@@ -209,6 +209,24 @@ nav > ul {
     align-items: center;
 }
 
+@media only screen and (max-width: 500px){
+    #greedy{
+        display: grid;
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        gap: 1rem;
+        grid-template-areas: 
+        "danishcript"
+        "shadow"
+        "hogwarts" 
+        "jazzcup"
+        "sakurai" 
+        "cartel";
+        align-items: center;
+    }
+}
+
 
 
 /* hogwarts */
@@ -225,7 +243,6 @@ nav > ul {
     position: relative;
     grid-area: hogwarts;
     margin: 0 0 0 5vw;
-
 }
 
 
@@ -276,6 +293,27 @@ nav > ul {
      background-color: var(--white);
      cursor: pointer;
  }   
+
+ @media only screen and (max-width: 500px){
+    #hogwarts{
+        width: 90vw;
+        height: 80vh;
+        color: var(--main-font-color);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        position: relative;
+        grid-area: hogwarts;
+        margin: 0 0 0 5vw;
+    }
+    .hogwarts-title{
+        font-family: var(--font-family);
+        font-size: 10vw;
+        margin: 0 auto 0rem auto;
+    }
+}
 
 
 /* cartel */
@@ -341,6 +379,27 @@ nav > ul {
      background-color: var(--white);
      cursor: pointer;
  }   
+
+ @media only screen and (max-width: 500px){
+    #cartel{
+        width: 90vw;
+        height: 80vh;
+        color: var(--main-font-color);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        position: relative;
+        grid-area: cartel;
+        margin: 0 0 0 5vw;
+    }
+    .cartel-title{
+        font-family: var(--font-family);
+        font-size: 10vw;
+        margin: 0 auto 0rem auto;
+    }
+}
 
 /* DANISHCRIPT */
 
@@ -424,6 +483,27 @@ nav > ul {
     bottom: 30%;
 }
 
+@media only screen and (max-width: 500px){
+    #danishcript{
+        width: 90vw;
+        height: 80vh;
+        color: var(--main-font-color);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        position: relative;
+        grid-area: danishcript;
+        margin: 0 0 0 5vw;
+    }
+    .danishcript-title{
+        font-family: var(--font-family);
+        font-size: 10vw;
+        margin: 0 auto 0rem auto;
+    }
+}
+
 
 /* jazzcup */
 
@@ -490,6 +570,27 @@ nav > ul {
     cursor: pointer;
 }   
 
+@media only screen and (max-width: 500px){
+    #jazzcup{
+        width: 90vw;
+        height: 80vh;
+        color: var(--main-font-color);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        position: relative;
+        grid-area: jazzcup;
+        margin: 0 0 0 5vw;
+    }
+    .jazzcup-title{
+        font-family: var(--font-family);
+        font-size: 10vw;
+        margin: 0 auto 0rem auto;
+    }
+}
+
 /* sakurai */
 
 #sakurai{
@@ -555,6 +656,27 @@ nav > ul {
     cursor: pointer;
 }   
 
+@media only screen and (max-width: 500px){
+    #sakurai{
+        width: 90vw;
+        height: 80vh;
+        color: var(--main-font-color);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        position: relative;
+        grid-area: sakurai;
+        margin: 0 0 0 5vw;
+    }
+    .sakurai-title{
+        font-family: var(--font-family);
+        font-size: 10vw;
+        margin: 0 auto 0rem auto;
+    }
+}
+
  /* shadow */
 
  #shadow{
@@ -619,6 +741,27 @@ nav > ul {
     background-color: var(--white);
     cursor: pointer;
 }   
+
+@media only screen and (max-width: 500px){
+    #shadow{
+        width: 90vw;
+        height: 80vh;
+        color: var(--main-font-color);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        position: relative;
+        grid-area: shadow;
+        margin: 0 0 0 5vw;
+    }
+    .shadow-title{
+        font-family: var(--font-family);
+        font-size: 10vw;
+        margin: 0 auto 0rem auto;
+    }
+}
     
 
 /* footer */
