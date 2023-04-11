@@ -330,6 +330,7 @@ nav > ul {
     z-index: 20;
     padding: 1rem 1.5rem;
     filter: drop-shadow(2px 4px 2px var(--main-font-color));
+    background-color: var(--white);
  }
  
  .cartel-btn:hover{
